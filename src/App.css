@@ -1,0 +1,225 @@
+body {
+  background-color: #B1A29D;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header {
+  background-color: #E4DFDC;
+  border-radius: 30px;
+  border: 4px solid white;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+
+}
+
+nav .container {
+  display: flex;
+  justify-content: left;
+  gap: 79px;
+  align-items: center;
+  padding: 0px 30px;
+
+}
+.logo{
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  gap: 79px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #2D2B2C;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+ul li:hover {
+  color: black;
+  transform: scale(1.2);
+}
+
+
+
+/* hero start  */
+.boxs {
+  display: flex;
+  justify-content: left;
+  gap: 76px;
+}
+
+.box1 div {
+  padding: 30px;
+  border-left: 3px solid grey;
+
+}
+
+.box1 div:hover {
+  border-left: 3px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.box1 {
+  color: grey;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+nav{
+  padding-bottom: 144px;
+}
+.hero  .container{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+
+}
+
+.box2 h1 {
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.box2 h4 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #7D7A79;
+}
+
+.country {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  padding: 20px 0px;
+  align-items: center;
+}
+
+.country span {
+  font-size: 20px;
+}
+
+.country button {
+  border-radius: 8px;
+  border: none;
+  display: inline-block;
+  padding: 10px 35px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #856D5C;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px #999;
+}
+
+button:hover {
+  background-color: #8A7E70;
+  /* color: black; */
+}
+
+button:active {
+  background-color: #8A7E70;
+  box-shadow: 2px 2px #666;
+  transform: translateY(2px);
+  transform: translateX(2px);
+}
+
+.boxs {
+  position: relative;
+}
+
+.HeroImg {
+  position: absolute;
+  right: 0px;
+  top: -100px;
+
+}
+
+.HeroImg img {
+  width: 500px;
+}
+
+.btn button {
+  border-radius: 8px;
+  border: none;
+  display: inline-block;
+  padding: 16px 49px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #856D5C;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px #999;
+}
+
+.narxlar {
+  display: flex;
+  justify-content: start;
+  gap: 22px;
+  align-items: center;
+}
+
+.narx h3 {
+  font-size: 30px;
+}
+
+
+.new {
+  padding-top: 28px;
+  background-color: #EDE8E6;
+  border-radius: 0px 0px 30px 30px;
+  
+}
+.new .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newNikes {
+  display: flex;
+  justify-content: start;
+  gap: 24px;
+}
+.newNike{
+  width: 163px;
+  height: 144px;
+  background-color: white;
+  padding: 22px 25px;
+  border-radius: 8px;
+}
+.newNike img{
+  width: 100%;
+}
+.Watch{
+  cursor: pointer;
+}
+.Watch h3{
+  color: #877C78;
+  font-size: 20px ;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 17px;
+
+}
+.nikes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
